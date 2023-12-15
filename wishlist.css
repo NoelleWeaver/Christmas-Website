@@ -1,7 +1,58 @@
-html {
+/* html {
     background-color: rgb(224, 181, 187);
 }
 
 body {
      background-color: rgb(255, 97, 97);
+} */
+
+header {
+    background-color:rgb(106, 106, 106);
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav {
+    margin-right: 150px;
+    margin-left: 150px;
+}
+
+nav ul {
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+nav a::after {
+    content: '|'; 
+    margin-left: 10px; 
+    color: #fff; 
+}
+
+nav li:last-child a::after {
+    content: ''; 
+    margin-left: 0;
+}
+
+nav a:hover {
+    color: black; 
+}
+
+
+#item {
+    border-radius: 5px;
+}
+
+button {
+    border-radius: 5px;
 }
