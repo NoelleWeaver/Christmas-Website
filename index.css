@@ -59,9 +59,27 @@
   height: 650px;
   position: relative;
   top: -700px;
-  left: 520px;
+  left: 250px;
+  border: solid 5px ;
+  border-color: rgb(104, 91, 54);
+  border-radius: 10px;
+}
+.sum {
+  background-color: rgb(255, 247, 223);
+  border: solid 5px #9a8562;
+  width: 490px;
+  height: 300px;
+  padding: 10px;
+  position: relative;
+  transform: translate(900px, -350%);
+}
+
+.sum p {
+  width: 100%;
+  margin: 5px 0; 
 }
 
 html{
   background-color: #9a8562;
+  height: -1000px;
 }
