@@ -1,5 +1,33 @@
-img {
-    width: 1500px;
-    height: 700px;
-    padding: 0px;
-}
+.bg-img {
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/580/284/966/christmas-new-year-wallpaper-preview.jpg");
+    height: 820px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .container {
+    position: absolute;
+    margin: 20px;
+    width: auto;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
