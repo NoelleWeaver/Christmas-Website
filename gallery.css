@@ -1,33 +1,59 @@
 .bg-img {
-    background-image: url("https://c4.wallpaperflare.com/wallpaper/580/284/966/christmas-new-year-wallpaper-preview.jpg");
-    height: 820px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-  }
-  
-  .container {
-    position: absolute;
-    margin: 20px;
-    width: auto;
-  }
-  
-  .topnav {
-    overflow: hidden;
-    background-color: #333;
-  }
-  
-  .topnav a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-  .topnav a:hover {
-    background-color: #ddd;
-    color: black;
-  }
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/580/284/966/christmas-new-year-wallpaper-preview.jpg");
+  height: 820px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.container {
+  position: absolute;
+  margin: 20px;
+  width: auto;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #9a8562;
+  text-align: center;
+  border-radius: 10px;
+  width: 1000px;
+}
+
+.topnav a {
+  float: none;
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a::after{
+  content: '|'; 
+  margin-left: 10px; 
+  color: #fff; 
+}
+
+.topnav a::before{
+  content: '|'; 
+  margin-right: 10px; 
+}
+
+.topnav li:last-child a::after {
+  content: ''; 
+  margin-left: 0;
+}
+
+.topnav a:hover {
+  background-color: rgb(255, 247, 223);
+  color: rgb(104, 91, 54);
+}
+
+html{
+  background-color: #9a8562;
+}
