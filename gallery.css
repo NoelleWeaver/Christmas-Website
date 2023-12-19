@@ -53,6 +53,10 @@
   background-color: rgb(255, 247, 223);
   color: rgb(104, 91, 54);
 }
+img{
+  width: 200px;
+  height: 300px;
+}
 
 html{
   background-color: #9a8562;
